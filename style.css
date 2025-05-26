@@ -1,0 +1,253 @@
+/* Add some basic styling to our layout */
+header {
+    background-color: #3498db; /* A nice blue color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px; /* Make the font size a bit larger */
+}
+
+nav {
+    background-color: #2c3e50; /* A dark gray color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease; /* Add a smooth transition effect */
+}
+
+a:hover {
+    color: #ccc; /* Change the text color on hover */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Use a nice font */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* A light gray background color */
+}
+
+footer {
+    background-color: #2c3e50; /* A dark gray color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* A white background color */
+    border: 1px solid #ddd; /* A light gray border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* Add some personal touches */
+header h1 {
+    font-size: 36px; /* Make the font size a bit larger */
+    font-weight: bold; /* Make the font bold */
+}
+
+footer p {
+    font-size: 18px; /* Make the font size a bit larger */
+    font-style: italic; /* Make the font italic */
+}
+
+/* Style the about section */
+#about {
+    background-color: #f7f7f7; /* A light gray background color */
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 24px; /* Make the font size a bit larger */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Style the skills section */
+#skills {
+    background-color: #f7f7f7; /* A light gray background color */
+    padding: 20px;
+}
+
+#skills h2 {
+    font-size: 24px; /* Make the font size a bit larger */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Style the projects section */
+#projects {
+    background-color: #f7f7f7; /* A light gray background color */
+    padding: 20px;
+}
+
+#projects h2 {
+    font-size: 24px; /* Make the font size a bit larger */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #f7f7f7; /* A light gray background color */
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 24px; /* Make the font size a bit larger */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Style the form */
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #3498db; /* A nice blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2c3e50; /* A dark gray color */
+}
+
+/* Add some animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fadeOut {
+    animation: fadeOut 2s;
+}
+
+/* Add some responsive design */
+/* Add some responsive design */
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
+/* Add some hover effects */
+.hover-effect {
+    transition: transform 0.2s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.1);
+}
+
+/* Add some box shadows */
+.box-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some text styles */
+.text-style {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add some button styles */
+.button-style {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: #2c3e50;
+}
+
+/* Add some input styles */
+.input-style {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Add some textarea styles */
+.textarea-style {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Add some select styles */
+.select-style {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
